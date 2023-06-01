@@ -1,0 +1,80 @@
+@import './resets';
+@import './variables';
+
+/* FONTS*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+}
+
+p, div {
+    font-family: $main-font;
+    color: $black-sub-color;
+}
+
+
+/*nav bar links styles*/
+.nav-link, {
+    color: $font-color;
+    font-size: 150%;
+
+    &:hover {
+        color: $highlight-color;
+    }
+}
+
+/*no bullets ul*/
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+/*banner styles*/
+  .jumbotron {
+    background: $neutral-color;
+  }
+
+/*logo styles */
+.mx-auto d-block img-fluid unlock-icon {
+    padding: 0;
+    margin: 0;
+  }
+
+/*caroursel*/
+.carousel-item {
+    height: auto;
+    width: 100%;
+}
+
+/* Welcome to Bloom Up Design styles*/
+.welcome-sign {
+    padding: 2em;
+    margin: 2em 1em;
+  }
+
+/* definition of blum styles*/
+.definition {
+    padding: 2em;
+    margin: 2em;
+}
+
+/* articles */
+.row {
+    padding: 5em;
+    margin: 2em;
+    background: $neutral-color;
+    text-align: center;
+}
+.para {
+    text-align: justify;
+}
+
+.middlearticle {
+  border-left: 2px solid $font-color;
+  border-right: 2px solid $font-color;
+}
+
+/*footer nav bar styles*/
+.btmnav {
+  color: $font-color;
+}

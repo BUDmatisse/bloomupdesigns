@@ -1,0 +1,86 @@
+/* 
+#92c339;
+#2e3f42;
+#347d93;
+#ec739a;
+#8499cd;
+#f9ae2d;
+#c7c338;
+#73b1a1
+*/
+/* FONTS*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Comfortaa", cursive;
+}
+
+p, div {
+  font-family: "Lato", sans-serif;
+  color: #2e3f42;
+}
+
+/*nav bar links styles*/
+.nav-link {
+  color: #347d93;
+  font-size: 150%;
+}
+.nav-link:hover {
+  color: #ec739a;
+}
+
+/*no bullets ul*/
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+/*banner styles*/
+.jumbotron {
+  background: white;
+}
+
+/*logo styles */
+.mx-auto d-block img-fluid unlock-icon {
+  padding: 0;
+  margin: 0;
+}
+
+/*caroursel*/
+.carousel-item {
+  height: auto;
+  width: 100%;
+}
+
+/* Welcome to Bloom Up Design styles*/
+.welcome-sign {
+  padding: 2em;
+  margin: 2em 1em;
+}
+
+/* definition of blum styles*/
+.definition {
+  padding: 2em;
+  margin: 2em;
+}
+
+/* articles */
+.row {
+  padding: 5em;
+  margin: 2em;
+  background: white;
+  text-align: center;
+}
+
+.para {
+  text-align: justify;
+}
+
+.middlearticle {
+  border-left: 2px solid #347d93;
+  border-right: 2px solid #347d93;
+}
+
+/*footer nav bar styles*/
+.btmnav {
+  color: #347d93;
+}/*# sourceMappingURL=main.css.map */
