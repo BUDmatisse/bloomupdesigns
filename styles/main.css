@@ -12,12 +12,16 @@ $main-font: 'Lato', sans-serif;
 */
 /* FONTS*/
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Handlee", cursive;
+  font-family: "Gotu", sans-serif;
 }
 
 p, div {
   font-family: "Gotu", sans-serif;
   color: #2e3f42;
+}
+
+.handfont {
+  font-family: "Handlee", cursive;
 }
 
 body {

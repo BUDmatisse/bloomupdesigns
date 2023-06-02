@@ -4,12 +4,16 @@
 
 /* FONTS*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: $heading-font;
+    font-family: $main-font;
 }
 
 p, div {
     font-family: $main-font;
     color: $black-sub-color;
+}
+
+.handfont {
+  font-family: $heading-font;
 }
 
 body {
