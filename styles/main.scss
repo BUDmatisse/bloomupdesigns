@@ -1,3 +1,4 @@
+
 @import './resets';
 @import './variables';
 
@@ -10,6 +11,11 @@ p, div {
     font-family: $main-font;
     color: $black-sub-color;
 }
+
+body {
+  border: 5em solid $font-color;
+}
+  
 
 
 /*nav bar links styles*/
@@ -67,6 +73,7 @@ ul {
 }
 .para {
     text-align: justify;
+    font-family: $main-font;
 }
 
 .middlearticle {
@@ -79,3 +86,6 @@ ul {
   color: $font-color;
 }
 
+footer {
+  padding-bottom: 2em;
+}
