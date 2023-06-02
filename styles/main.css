@@ -89,7 +89,7 @@ ul {
 
 /*resume page - center pdg*/
 .resume {
-  border: 0.5em solid #347d93;
+  border: 0.5em solid #f9ae2d;
 }
 
 /*footer nav bar styles*/
@@ -99,4 +99,5 @@ ul {
 
 footer {
   padding-bottom: 2em;
+  padding-top: 2em;
 }/*# sourceMappingURL=main.css.map */
