@@ -63,13 +63,13 @@ ul {
   margin: 2em 1em;
 }
 
-/* definition of blum styles*/
+/* on home page definition of blum styles*/
 .definition {
   padding: 2em;
   margin: 2em;
 }
 
-/* articles */
+/* articles on services page */
 .row {
   padding: 5em;
   margin: 2em;
@@ -87,6 +87,11 @@ ul {
   border-right: 2px solid #347d93;
 }
 
+/*resume page - center pdg*/
+.resume {
+  border: 0.5em solid #347d93;
+}
+
 /*footer nav bar styles*/
 .btmnav {
   color: #347d93;
@@ -94,9 +99,4 @@ ul {
 
 footer {
   padding-bottom: 2em;
-}
-
-/*resume page - center pdg*/
-.resume {
-  border: 1em solid #347d93;
 }/*# sourceMappingURL=main.css.map */
