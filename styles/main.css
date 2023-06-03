@@ -96,6 +96,11 @@ ul {
   border: 0.5em solid #f9ae2d;
 }
 
+/*about page styles*/
+.aboutpage {
+  border: 0.5em solid #92c339;
+}
+
 /*footer nav bar styles*/
 .btmnav {
   color: #347d93;
