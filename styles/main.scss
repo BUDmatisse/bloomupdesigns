@@ -23,12 +23,19 @@ body {
 /*nav bar links styles*/
 .nav-link, {
     color: $font-color;
-    font-size: 150%;
+    font-size: 300%;!important
 
     &:hover {
         color: $highlight-color;
     }
 }
+
+@media screen and (min-width:992px){
+  .nav-item {
+  line-height:80px;
+  }
+}
+
 
 /*no bullets ul*/
 ul {
