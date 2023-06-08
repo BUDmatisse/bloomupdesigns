@@ -21,9 +21,13 @@ body {
 }
   
 /*nav bar links styles*/
+
+.headerNav {
+  margin-bottom: 2em;
+}
+
 .nav-link, {
     color: $font-color;
-    font-size: 300%;!important
 
     &:hover {
         color: $highlight-color;
