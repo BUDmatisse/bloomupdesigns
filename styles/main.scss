@@ -61,7 +61,18 @@ ul {
     margin: 0;
   }
 
+/*navbar responsive stacking*/
+@media screen {
+
+    .navba-toggler {
+    display: flex;
+    flex-direction: column;
+    }
+
+  }
+
 /*caroursel*/
+
 .carousel-item {
     height: auto;
     width: 100%;
