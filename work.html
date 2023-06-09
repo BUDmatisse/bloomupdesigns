@@ -18,11 +18,8 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&family=Sofia&family=Vina+Sans&display=swap" rel="stylesheet">-->
             <!--Bootstrap-->
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
             <!--FontAwesome Link-->
             <script src="https://kit.fontawesome.com/46da6e993d.js" crossorigin="anonymous"></script>
             <!--Custom CSS-->
@@ -40,7 +37,7 @@
           <span class="navbar-toggler-icon"></span>
         </button> 
           <a class="navbar-brand d-block d-lg-none" href="index.html">
-            <img src="images/budlogo.png" alt="Bloom Up Design with Flowers Logo" height="100"/>
+            <img src="images/budlogo.png" alt="Bloom Up Design with Flowers Logo" height="200"/>
           </a>
         
     
@@ -68,67 +65,37 @@
       </div>
     </nav>    
    
-
-        
-            <section class="container-fluid">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <a href="https://budmatisse.github.io/adventurejournal/"><img 
-                    src="images/AdventureJournal.png"
-                    alt="Laptop with screenshot of AdventureJournal homepage, sky with photo gallery" 
-                    style="width:100; height: auto;"></a>
-                  </div>
-
-                  <div class="item">
-                    <img  
-                    src="images/gotthisforever.png"
-                    alt="Laptop with screenshot of Got This Forever homepage" 
-                    style="width:100; height: auto;">
-                  </div>
-
-                  <div class="item">
-                    <a href="http://www.b-wisesanitize.com"><img  
-                    src="images/bwisesanitize.png"
-                    alt="B-Wise Sanitize website on laptop and linked to content"
-                    style="width:100; height: auto;"></a>
-                  </div>
-
-                  <div class="item">
-                    <img  
-                    src="images/peoplemaking.png"
-                    alt="Peoplemaking of Colorado website on laptop"
-                    style="width:100; height: auto;"></a>
-                  </div>
-
-                  <!--<div class="carousel-item">
-                    <img
-                    src="images/layout.jpg"
-                    class="d-block w-100" 
-                    alt="Notebook with layout written on it on a desk">
-                  </div>-->
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-
-              </div>
-            </section>
-    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Adventure Journal"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Got This Forever"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="B-Wise Sanitize"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Peoplemaking of Colorado"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://budmatisse.github.io/adventurejournal/"></a><img src="images/AdventureJournal.png" class="d-block w-100" alt="Laptop with screenshot of AdventureJournal homepage, sky with photo gallery">
+          </div>
+          <div class="carousel-item">
+            <img src="images/gotthisforever.png" class="d-block w-100" alt="Laptop with screenshot of AdventureJournal homepage, sky with photo gallery">
+          </div>
+          <div class="carousel-item">
+            <a href="http://www.b-wisesanitize.com"></a><img src="images/bwisesanitize.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/peoplemaking.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+            
                 <footer>
                   <!--<div class="flex-container">
                             <div class="footer"><a href="index.html">Home</a></div>
@@ -146,9 +113,6 @@
                         </div>
                       </footer>
                  <!--Bootstrap Javascript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script
-  </body>
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
 </html>
