@@ -29,14 +29,23 @@ body {
 }
 
 /*nav bar links styles*/
+/*.headerNav {
+  margin-bottom: 2em;
+}
+Effort to give responsive menu a bottom margin
+*/
 .nav-link {
   color: #347d93;
-  font-size: 150%;
 }
 .nav-link:hover {
   color: #ec739a;
 }
 
+@media screen and (min-width: 992px) {
+  .nav-item {
+    line-height: 80px;
+  }
+}
 /*no bullets ul*/
 ul {
   list-style-type: none; /* Remove bullets */
@@ -55,6 +64,18 @@ ul {
   margin: 0;
 }
 
+/*navbar responsive stacking*/
+@media screen {
+  .navba-toggler {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*headshot styles on About.html*/
+.headshot {
+  border: 0.5em solid #92c339;
+}
+
 /*caroursel*/
 .carousel-item {
   height: auto;
@@ -67,6 +88,7 @@ ul {
   margin: 2em 1em;
 }
 
+/*image styles*/
 /* on home page definition of blum styles*/
 .definition {
   padding: 2em;
@@ -82,10 +104,25 @@ ul {
 }
 
 .para {
-  text-align: justify;
+  text-align: center;
   font-family: "Gotu", sans-serif;
 }
 
+/*@media screen {
+  article {
+    padding: 0;
+    margin: 0;
+    background: $neutral-color;
+    text-align: center;
+}
+.para {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: max-content;
+    text-align: center;
+    font-family: $main-font;
+}
+}*/
 .middlearticle {
   border-left: 2px solid #ec739a;
   border-right: 2px solid #ec739a;
@@ -94,11 +131,6 @@ ul {
 /*resume page - center pdg*/
 .resume {
   border: 0.5em solid #f9ae2d;
-}
-
-/*about page styles*/
-.aboutpage {
-  border: 0.5em solid #92c339;
 }
 
 /*footer nav bar styles*/

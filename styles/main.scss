@@ -71,6 +71,12 @@ ul {
 
   }
 
+/*headshot styles on About.html*/
+
+.headshot {
+  border: .5em solid $primary-color
+}
+
 /*caroursel*/
 
 .carousel-item {
@@ -87,7 +93,7 @@ ul {
 /*image styles*/
 
 .pinkflower {
-  
+
 }
 
 /* on home page definition of blum styles*/
@@ -104,24 +110,34 @@ ul {
     text-align: center;
 }
 .para {
-    text-align: justify;
+    text-align: center;
     font-family: $main-font;
 }
+
+/*@media screen {
+  article {
+    padding: 0;
+    margin: 0;
+    background: $neutral-color;
+    text-align: center;
+}
+.para {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: max-content;
+    text-align: center;
+    font-family: $main-font;
+}
+}*/
 
 .middlearticle {
   border-left: 2px solid $highlight-color;
   border-right: 2px solid $highlight-color;
 }
 
-resume page - center pdg
+/*resume page - center pdg*/
 .resume {
-  /*border: .5em solid $mid-range-color;*/
-}
-
-
-/*about page styles*/
-.aboutpage {
-  border: .5em solid $primary-color;
+  border: .5em solid $mid-range-color;
 }
 
 
