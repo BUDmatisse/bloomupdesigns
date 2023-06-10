@@ -72,7 +72,7 @@ ul {
   }
 }
 /* about.html headshot styles on About.html*/
-#headshot {
+.headshot {
   border: 0.5em solid #92c339;
   display: block;
   margin-left: auto;
@@ -82,15 +82,6 @@ ul {
   min-width: 50%;
 }
 
-@media screen and (min-width: 640px) {
-  #headshot {
-    display: flex;
-    flex-direction: column;
-    min-width: -moz-fit-content;
-    min-width: fit-content;
-    border: 0.25 solid #92c339;
-  }
-}
 /* work.html caroursel*/
 .carousel-item {
   height: auto;
