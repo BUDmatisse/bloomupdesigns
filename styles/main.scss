@@ -108,11 +108,10 @@ ul {
 
 /* service.html articles on services page */
 .row {
-    padding: 5em;
-    margin: 2em;
     background: $neutral-color;
     text-align: center;
 }
+
 .para {
     text-align: center;
     font-family: $main-font;
@@ -123,21 +122,14 @@ ul {
   border-right: 2px solid $highlight-color;
 }
 
-/*@media screen {
-  article {
-    padding: 0;
-    margin: 0;
-    background: $neutral-color;
-    text-align: center;
-}
-.para {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    max-width: max-content;
-    text-align: center;
-    font-family: $main-font;
-}
-}*/
+@media (min-width:576px) {
+  .middlearticle {
+    border-top: 2px solid $highlight-color;
+    border-bottom: 2px solid $highlight-color;
+    border-left: none;
+    border-right: none;
+  }
+} 
 
 /*resume page - center pdg*/
 .resume {

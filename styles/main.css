@@ -103,8 +103,6 @@ ul {
 
 /* service.html articles on services page */
 .row {
-  padding: 5em;
-  margin: 2em;
   background: white;
   text-align: center;
 }
@@ -119,21 +117,14 @@ ul {
   border-right: 2px solid #ec739a;
 }
 
-/*@media screen {
-  article {
-    padding: 0;
-    margin: 0;
-    background: $neutral-color;
-    text-align: center;
+@media (min-width: 576px) {
+  .middlearticle {
+    border-top: 2px solid #ec739a;
+    border-bottom: 2px solid #ec739a;
+    border-left: none;
+    border-right: none;
+  }
 }
-.para {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    max-width: max-content;
-    text-align: center;
-    font-family: $main-font;
-}
-}*/
 /*resume page - center pdg*/
 .resume {
   border: 0.25em solid #f9ae2d;
