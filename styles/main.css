@@ -73,7 +73,7 @@ ul {
 }
 /* about.html headshot styles on About.html*/
 .headshot {
-  border: 0.5em solid #92c339;
+  border: 0.25em solid #92c339;
   display: block;
   margin-left: auto;
   margin-right: auto;
