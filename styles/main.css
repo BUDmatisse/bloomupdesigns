@@ -103,7 +103,6 @@ ul {
 
 /* service.html articles on services page */
 .row {
-  background: white;
   text-align: center;
 }
 
@@ -112,17 +111,56 @@ ul {
   font-family: "Gotu", sans-serif;
 }
 
+/*SERVICE.html middle article border adjustments*/
 .middlearticle {
   border-left: 2px solid #ec739a;
   border-right: 2px solid #ec739a;
 }
 
-@media (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .middlearticle {
     border-top: 2px solid #ec739a;
     border-bottom: 2px solid #ec739a;
     border-left: none;
     border-right: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .middlearticle {
+    border-top: 3px solid #ec739a;
+    border-bottom: 3px solid #ec739a;
+    border-left: none;
+    border-right: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+/*SERVICE.html TOP article border adjustments*/
+@media screen and (max-width: 576px) {
+  .toparticle {
+    border-top: 2px solid #ec739a;
+    padding-top: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .toparticle {
+    border-top: 2px solid #ec739a;
+    padding-top: 1em;
+  }
+}
+/*SERVICE.html BOTTOM article border adjustments*/
+@media screen and (max-width: 576px) {
+  .bottomarticle {
+    border-bottom: 2px solid #ec739a;
+    padding-bottom: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bottomarticle {
+    border-bottom: 2px solid #ec739a;
+    padding-bottom: 1em;
   }
 }
 /*resume page - center pdg*/

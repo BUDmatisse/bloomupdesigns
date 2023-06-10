@@ -108,26 +108,70 @@ ul {
 
 /* service.html articles on services page */
 .row {
-    background: $neutral-color;
     text-align: center;
 }
-
 .para {
     text-align: center;
     font-family: $main-font;
 }
 
+/*SERVICE.html middle article border adjustments*/
 .middlearticle {
   border-left: 2px solid $highlight-color;
   border-right: 2px solid $highlight-color;
 }
 
-@media (min-width:576px) {
+@media screen and (max-width:576px) {
   .middlearticle {
     border-top: 2px solid $highlight-color;
     border-bottom: 2px solid $highlight-color;
     border-left: none;
     border-right: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+} 
+
+@media screen and (max-width:768px) {
+  .middlearticle {
+    border-top: 3px solid $highlight-color;
+    border-bottom: 3px solid $highlight-color;
+    border-left: none;
+    border-right: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+} 
+
+/*SERVICE.html TOP article border adjustments*/
+
+@media screen and (max-width:576px) {
+  .toparticle {
+    border-top: 2px solid $highlight-color;
+    padding-top: 1em;
+  }
+} 
+
+@media screen and (max-width:768px) {
+  .toparticle {
+    border-top: 2px solid $highlight-color;
+    padding-top: 1em;
+  }
+} 
+
+/*SERVICE.html BOTTOM article border adjustments*/
+
+@media screen and (max-width:576px) {
+  .bottomarticle {
+    border-bottom: 2px solid $highlight-color;
+    padding-bottom: 1em;
+  }
+} 
+
+@media screen and (max-width:768px) {
+  .bottomarticle {
+    border-bottom: 2px solid $highlight-color;
+    padding-bottom: 1em;
   }
 } 
 
