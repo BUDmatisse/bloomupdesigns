@@ -30,19 +30,6 @@ body {
     }
 }
 
-/*.headerNav {
-  margin-bottom: 2em;
-}
-Effort to give responsive menu a bottom margin
-*/
-
-/*@media screen and (min-width:992px){
-  .nav-item {
-  line-height:80px;
-  }
-}*/
-
-
 /*no bullets ul*/
 ul {
     list-style-type: none; /* Remove bullets */
@@ -121,8 +108,8 @@ ul {
 
 /*SERVICE.html middle article border adjustments*/
 .middlearticle {
-  border-left: 2px solid $highlight-color;
-  border-right: 2px solid $highlight-color;
+  border-left: 3px solid $highlight-color;
+  border-right: 3px solid $highlight-color;
 }
 
 /*service.html media queries sizing articles*/

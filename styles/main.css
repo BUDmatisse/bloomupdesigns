@@ -36,16 +36,6 @@ body {
   color: #ec739a;
 }
 
-/*.headerNav {
-  margin-bottom: 2em;
-}
-Effort to give responsive menu a bottom margin
-*/
-/*@media screen and (min-width:992px){
-  .nav-item {
-  line-height:80px;
-  }
-}*/
 /*no bullets ul*/
 ul {
   list-style-type: none; /* Remove bullets */
@@ -118,8 +108,8 @@ ul {
 
 /*SERVICE.html middle article border adjustments*/
 .middlearticle {
-  border-left: 2px solid #ec739a;
-  border-right: 2px solid #ec739a;
+  border-left: 3px solid #ec739a;
+  border-right: 3px solid #ec739a;
 }
 
 /*service.html media queries sizing articles*/
