@@ -29,11 +29,6 @@ body {
 }
 
 /*nav bar links styles*/
-/*.headerNav {
-  margin-bottom: 2em;
-}
-Effort to give responsive menu a bottom margin
-*/
 .nav-link {
   color: #347d93;
 }
@@ -41,11 +36,16 @@ Effort to give responsive menu a bottom margin
   color: #ec739a;
 }
 
-@media screen and (min-width: 992px) {
-  .nav-item {
-    line-height: 80px;
-  }
+/*.headerNav {
+  margin-bottom: 2em;
 }
+Effort to give responsive menu a bottom margin
+*/
+/*@media screen and (min-width:992px){
+  .nav-item {
+  line-height:80px;
+  }
+}*/
 /*no bullets ul*/
 ul {
   list-style-type: none; /* Remove bullets */
@@ -65,18 +65,33 @@ ul {
 }
 
 /*navbar responsive stacking*/
-@media screen {
-  .navba-toggler {
+@media screen and (min-width: 640px) {
+  .navbr-toggler {
     display: flex;
     flex-direction: column;
   }
 }
-/*headshot styles on About.html*/
-.headshot {
+/* about.html headshot styles on About.html*/
+#headshot {
   border: 0.5em solid #92c339;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 3em;
+  min-width: 50%;
 }
 
-/*caroursel*/
+@media screen and (min-width: 640px) {
+  #headshot {
+    display: flex;
+    flex-direction: column;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    border: 0.25 solid #92c339;
+  }
+}
+/* work.html caroursel*/
 .carousel-item {
   height: auto;
   width: 100%;

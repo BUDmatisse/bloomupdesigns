@@ -2,6 +2,7 @@
 @import './resets';
 @import './variables';
 
+
 /* FONTS*/
 h1, h2, h3, h4, h5, h6 {
     font-family: $main-font;
@@ -22,13 +23,7 @@ body {
   
 /*nav bar links styles*/
 
-/*.headerNav {
-  margin-bottom: 2em;
-}
-Effort to give responsive menu a bottom margin
-*/
-
-.nav-link, {
+.nav-link {
     color: $font-color;
 
     &:hover {
@@ -36,11 +31,17 @@ Effort to give responsive menu a bottom margin
     }
 }
 
-@media screen and (min-width:992px){
+/*.headerNav {
+  margin-bottom: 2em;
+}
+Effort to give responsive menu a bottom margin
+*/
+
+/*@media screen and (min-width:992px){
   .nav-item {
   line-height:80px;
   }
-}
+}*/
 
 
 /*no bullets ul*/
@@ -62,39 +63,51 @@ ul {
   }
 
 /*navbar responsive stacking*/
-@media screen {
+@media screen and (min-width:640px) {
 
-    .navba-toggler {
+    .navbr-toggler {
     display: flex;
     flex-direction: column;
     }
 
   }
 
-/*headshot styles on About.html*/
+/* about.html headshot styles on About.html*/
 
-.headshot {
-  border: .5em solid $primary-color
+#headshot {
+  border: .5em solid $primary-color;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 3em;
+  min-width: 50%;
+  
+}
+@media screen and (min-width:640px) {
+
+      #headshot {
+      display: flex;
+      flex-direction: column;
+      min-width: fit-content;
+      border: .25 solid $primary-color;!important
+      }
 }
 
-/*caroursel*/
+/* work.html caroursel*/
 
 .carousel-item {
     height: auto;
     width: 100%;
 }
 
+/*index page*/
 /* Welcome to Bloom Up Design styles*/
 .welcome-sign {
     padding: 2em;
     margin: 2em 1em;
   }
 
-/*image styles*/
-
-.pinkflower {
-
-}
 
 /* on home page definition of blum styles*/
 .definition {
@@ -102,7 +115,7 @@ ul {
     margin: 2em;
 }
 
-/* articles on services page */
+/* service.html articles on services page */
 .row {
     padding: 5em;
     margin: 2em;
@@ -112,6 +125,11 @@ ul {
 .para {
     text-align: center;
     font-family: $main-font;
+}
+
+.middlearticle {
+  border-left: 2px solid $highlight-color;
+  border-right: 2px solid $highlight-color;
 }
 
 /*@media screen {
@@ -130,14 +148,10 @@ ul {
 }
 }*/
 
-.middlearticle {
-  border-left: 2px solid $highlight-color;
-  border-right: 2px solid $highlight-color;
-}
-
 /*resume page - center pdg*/
 .resume {
   border: .5em solid $mid-range-color;
+  width: 200px;
   
 }
 
@@ -150,5 +164,7 @@ ul {
 footer {
   padding-bottom: 2em;
   padding-top: 2em;
+  font-family: $main-font;
+  color: $black-sub-color;
 }
 
