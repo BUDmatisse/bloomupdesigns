@@ -90,7 +90,7 @@ ul {
       display: flex;
       flex-direction: column;
       min-width: fit-content;
-      border: .25 solid $primary-color;!important
+      border: .25 solid $primary-color;
       }
 }
 
@@ -150,9 +150,7 @@ ul {
 
 /*resume page - center pdg*/
 .resume {
-  border: .5em solid $mid-range-color;
-  width: 200px;
-  
+  border: .5em solid $mid-range-color; 
 }
 
 

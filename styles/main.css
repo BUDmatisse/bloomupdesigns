@@ -97,20 +97,20 @@ ul {
   width: 100%;
 }
 
+/*index page*/
 /* Welcome to Bloom Up Design styles*/
 .welcome-sign {
   padding: 2em;
   margin: 2em 1em;
 }
 
-/*image styles*/
 /* on home page definition of blum styles*/
 .definition {
   padding: 2em;
   margin: 2em;
 }
 
-/* articles on services page */
+/* service.html articles on services page */
 .row {
   padding: 5em;
   margin: 2em;
@@ -121,6 +121,11 @@ ul {
 .para {
   text-align: center;
   font-family: "Gotu", sans-serif;
+}
+
+.middlearticle {
+  border-left: 2px solid #ec739a;
+  border-right: 2px solid #ec739a;
 }
 
 /*@media screen {
@@ -138,11 +143,6 @@ ul {
     font-family: $main-font;
 }
 }*/
-.middlearticle {
-  border-left: 2px solid #ec739a;
-  border-right: 2px solid #ec739a;
-}
-
 /*resume page - center pdg*/
 .resume {
   border: 0.5em solid #f9ae2d;
@@ -156,4 +156,6 @@ ul {
 footer {
   padding-bottom: 2em;
   padding-top: 2em;
+  font-family: "Gotu", sans-serif;
+  color: #2e3f42;
 }/*# sourceMappingURL=main.css.map */
