@@ -83,6 +83,11 @@ ul {
 }
 
 /* work.html caroursel*/
+.mycarousel {
+  border-top: 0.25em solid #8499cd;
+  border-bottom: 0.25em solid #8499cd;
+}
+
 .carousel-item {
   height: auto;
   width: 100%;
@@ -117,17 +122,12 @@ ul {
   border-right: 2px solid #ec739a;
 }
 
+/*service.html media queries sizing articles*/
 @media screen and (max-width: 576px) {
-  .middlearticle {
-    border-top: 2px solid #ec739a;
-    border-bottom: 2px solid #ec739a;
-    border-left: none;
-    border-right: none;
+  .toparticle {
+    border-top: 3px solid #ec739a;
     padding-top: 1em;
-    margin-bottom: 1em;
   }
-}
-@media screen and (max-width: 768px) {
   .middlearticle {
     border-top: 3px solid #ec739a;
     border-bottom: 3px solid #ec739a;
@@ -136,30 +136,26 @@ ul {
     padding-top: 1em;
     margin-bottom: 1em;
   }
-}
-/*SERVICE.html TOP article border adjustments*/
-@media screen and (max-width: 576px) {
-  .toparticle {
-    border-top: 2px solid #ec739a;
-    padding-top: 1em;
-  }
-}
-@media screen and (max-width: 768px) {
-  .toparticle {
-    border-top: 2px solid #ec739a;
-    padding-top: 1em;
-  }
-}
-/*SERVICE.html BOTTOM article border adjustments*/
-@media screen and (max-width: 576px) {
   .bottomarticle {
-    border-bottom: 2px solid #ec739a;
+    border-bottom: 3px solid #ec739a;
     padding-bottom: 1em;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  .toparticle {
+    border-top: 3px solid #ec739a;
+    padding-top: 1em;
+  }
+  .middlearticle {
+    border-top: 3px solid #ec739a;
+    border-bottom: 3px solid #ec739a;
+    border-left: none;
+    border-right: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
   .bottomarticle {
-    border-bottom: 2px solid #ec739a;
+    border-bottom: 3px solid #ec739a;
     padding-bottom: 1em;
   }
 }
