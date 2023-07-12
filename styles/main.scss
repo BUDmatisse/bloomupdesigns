@@ -133,6 +133,10 @@ ul {
     border-bottom: 3px solid $highlight-color;
     padding-bottom: 1em;
   }
+
+  body {
+    border: 2em solid $font-color;
+  }
   
 } 
 
@@ -154,6 +158,10 @@ ul {
   .bottomarticle {
     border-bottom: 3px solid $highlight-color;
     padding-bottom: 1em;
+  }
+
+  body {
+    border: 2em solid $font-color;
   }
 
 } 
