@@ -130,6 +130,9 @@ ul {
     border-bottom: 3px solid #ec739a;
     padding-bottom: 1em;
   }
+  body {
+    border: 2em solid #347d93;
+  }
 }
 @media screen and (max-width: 991px) {
   .toparticle {
@@ -147,6 +150,9 @@ ul {
   .bottomarticle {
     border-bottom: 3px solid #ec739a;
     padding-bottom: 1em;
+  }
+  body {
+    border: 2em solid #347d93;
   }
 }
 /*resume page - center pdg*/
